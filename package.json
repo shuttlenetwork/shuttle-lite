@@ -1,0 +1,24 @@
+{
+	"name": "shuttle-lite",
+	"version": "1.0.0",
+	"description": "A lightweight version of Shuttle Proxy.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shuttlenetwork/shuttle-lite.git"
+	},
+	"keywords": [
+		"shuttle"
+	],
+	"author": "shuttlenetwork",
+	"bugs": {
+		"url": "https://github.com/shuttlenetwork/shuttle-lite/issues"
+	},
+	"dependencies": {
+		"@fastify/http-proxy": "^9.3.0",
+		"fastify": "^4.24.3"
+	}
+}

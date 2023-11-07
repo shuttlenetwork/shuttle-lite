@@ -1,11 +1,19 @@
-const Fastify = require('fastify');
-const server = Fastify();
+const express = require('express');
+const cors = require('cors');
+const { createProxyMiddleware } = require('http-proxy-middleware');
+const path = require('path');
 
-server.register(require('@fastify/http-proxy'), {
-  upstream: 'https://shuttleproxy.com',
-  prefix: '/', 
-  http2: false,
+const app = express();
+
+app.use(cors()); // CORS support
+
+app.use(createProxyMiddleware('/', {
+  target: 'https://now.gg',
+  changeOrigin: true,
+  secure: false, // Bypass SSL Verification if needed
+}));
+
+const port = 80;
+app.listen(port, () => {
+  console.log(`Proxy server is running on port ${port}`);
 });
-
-server.listen({host: "0.0.0.0", port: 3000 });
-

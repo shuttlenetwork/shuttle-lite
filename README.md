@@ -1,4 +1,4 @@
-# A lightweight version of Shuttle v3 for deploying for replit.
+# A lightweight version of Shuttle v3 (proxies orignal site).
 
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/new/github/shuttlenetwork/shuttle-lite)
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://github.com/shuttlenetwork/shuttle-lite/wiki#how-to-deploy-to-onrender)

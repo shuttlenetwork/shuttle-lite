@@ -14,7 +14,7 @@
 
 Press the join button to join our server:
 
-[![Join us on Discord](https://invidget.switchblade.xyz/xi)](https://discord.gg/xi)
+[![Join us on Discord](https://invidget.switchblade.xyz/E57EpN2CHh)](https://discord.gg/E57EpN2CHh)
 
 ## Setup
 
